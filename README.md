@@ -1,124 +1,108 @@
-<a href="https://excalidraw.com/" target="_blank" rel="noopener">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" alt="Excalidraw" srcset="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2_dark.png" />
-    <img alt="Excalidraw" src="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2.png" />
-  </picture>
-</a>
+# WI Draw
 
-<h4 align="center">
-  <a href="https://excalidraw.com">Excalidraw Editor</a> |
-  <a href="https://plus.excalidraw.com/blog">Blog</a> |
-  <a href="https://docs.excalidraw.com">Documentation</a> |
-  <a href="https://plus.excalidraw.com">Excalidraw+</a>
-</h4>
+**WI Draw** is the visual workspace of the WI Arch ecosystem: an open-source, hand-drawn whiteboard for diagrams, wireframes, flowcharts, mind maps, technical sketches and collaborative thinking.
 
-<div align="center">
-  <h2>
-    An open source virtual hand-drawn style whiteboard. </br>
-    Collaborative and end-to-end encrypted. </br>
-  <br />
-  </h2>
-</div>
+The project starts from the MIT-licensed Excalidraw codebase and is being adapted into an independent WI Arch product. The inherited drawing engine is retained as a foundation; product identity, integrations, deployment, platform packaging and future capabilities will be developed under WI Arch.
 
-<br />
-<p align="center">
-  <a href="https://github.com/excalidraw/excalidraw/blob/master/LICENSE">
-    <img alt="Excalidraw is released under the MIT license." src="https://img.shields.io/badge/license-MIT-blue.svg"  /></a>
-  <a href="https://www.npmjs.com/package/@excalidraw/excalidraw">
-    <img alt="npm downloads/month" src="https://img.shields.io/npm/dm/@excalidraw/excalidraw"  /></a>
-  <a href="https://docs.excalidraw.com/docs/introduction/contributing">
-    <img alt="PRs welcome!" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat"  /></a>
-  <a href="https://discord.gg/UexuTaE">
-    <img alt="Chat on Discord" src="https://img.shields.io/discord/723672430744174682?color=738ad6&label=Chat%20on%20Discord&logo=discord&logoColor=ffffff&widget=false"/></a>
-  <a href="https://deepwiki.com/excalidraw/excalidraw">
-    <img alt="Ask DeepWiki" src="https://deepwiki.com/badge.svg" /></a>
-  <a href="https://twitter.com/excalidraw">
-    <img alt="Follow Excalidraw on Twitter" src="https://img.shields.io/twitter/follow/excalidraw.svg?label=follow+@excalidraw&style=social&logo=twitter"/></a>
-</p>
+> Project status: foundation and rebranding in progress. This repository contains the inherited editor code. Native desktop/mobile applications, WI account integration, cloud workspaces and WI-specific collaboration services are not yet represented as completed features.
 
-<div align="center">
-  <figure>
-    <a href="https://excalidraw.com" target="_blank" rel="noopener">
-      <img src="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github%2Fproduct_showcase.png" alt="Product showcase" />
-    </a>
-    <figcaption>
-      <p align="center">
-        Create beautiful hand-drawn like diagrams, wireframes, or whatever you like.
-      </p>
-    </figcaption>
-  </figure>
-</div>
+## Product direction
 
-## Features
+- A fast, infinite canvas with a deliberately simple drawing experience.
+- Shapes, arrows, connectors, freehand drawing, text, images and reusable libraries.
+- Diagrams, architecture maps, process flows, mind maps, planning boards and low-fidelity wireframes.
+- Local-first editing with import/export and offline-capable web experience.
+- A consistent experience across web, desktop and mobile form factors.
+- Optional collaboration and synchronization through services controlled by WI Arch, after their security and operational design is complete.
 
-The Excalidraw editor (npm package) supports:
+## Platform strategy
 
-- 💯&nbsp;Free & open-source.
-- 🎨&nbsp;Infinite, canvas-based whiteboard.
-- ✍️&nbsp;Hand-drawn like style.
-- 🌓&nbsp;Dark mode.
-- 🏗️&nbsp;Customizable.
-- 📷&nbsp;Image support.
-- 😀&nbsp;Shape libraries support.
-- 🌐&nbsp;Localization (i18n) support.
-- 🖼️&nbsp;Export to PNG, SVG & clipboard.
-- 💾&nbsp;Open format - export drawings as an `.excalidraw` json file.
-- ⚒️&nbsp;Wide range of tools - rectangle, circle, diamond, arrow, line, free-draw, eraser...
-- ➡️&nbsp;Arrow-binding & labeled arrows.
-- 🔙&nbsp;Undo / Redo.
-- 🔍&nbsp;Zoom and panning support.
+| Platform | Direction | Status |
+| --- | --- | --- |
+| Web | Responsive web application and PWA | Inherited foundation; needs WI branding and validation |
+| Linux | Desktop application, preferably Tauri | Planned |
+| Windows | Desktop application, preferably Tauri | Planned |
+| macOS | Desktop application, subject to packaging and signing | Planned |
+| Android | Touch-first mobile application, evaluating Capacitor/native integration | Planned |
+| iOS/iPadOS | Touch-first mobile application, evaluating Capacitor/native integration | Planned |
 
-## Excalidraw.com
+The current codebase is a React/TypeScript web monorepo. Desktop and mobile packaging are roadmap items, not existing capabilities.
 
-The app hosted at [excalidraw.com](https://excalidraw.com) is a minimal showcase of what you can build with Excalidraw. Its [source code](https://github.com/excalidraw/excalidraw/tree/master/excalidraw-app) is part of this repository as well, and the app features:
+## Technology foundation
 
-- 📡&nbsp;PWA support (works offline).
-- 🤼&nbsp;Real-time collaboration.
-- 🔒&nbsp;End-to-end encryption.
-- 💾&nbsp;Local-first support (autosaves to the browser).
-- 🔗&nbsp;Shareable links (export to a readonly link you can share with others).
+- React and TypeScript
+- Vite
+- Yarn workspaces
+- Canvas-based editor and internal drawing packages
+- PWA/service-worker support inherited from the upstream codebase
+- Existing collaboration integrations are under review before being adopted as WI services
 
-We'll be adding these features as drop-in plugins for the npm package in the future.
+Exact dependency and script versions are maintained in the workspace manifests. Do not upgrade or replace the package manager without checking the lockfile and workspace tooling.
 
-## Quick start
+## Development
 
-**Note:** following instructions are for installing the Excalidraw [npm package](https://www.npmjs.com/package/@excalidraw/excalidraw) when integrating Excalidraw into your own app. To run the repository locally for development, please refer to our [Development Guide](https://docs.excalidraw.com/docs/introduction/development).
+### Requirements
 
-Use `npm` or `yarn` to install the package.
+- Node.js 18 or newer (use the version supported by the current CI configuration).
+- Yarn 1.22.22, as declared by the root `package.json`.
+
+### Install and run
 
 ```bash
-npm install react react-dom @excalidraw/excalidraw
-# or
-yarn add react react-dom @excalidraw/excalidraw
+yarn install
+yarn start
 ```
 
-Check out our [documentation](https://docs.excalidraw.com/docs/@excalidraw/excalidraw/installation) for more details!
+### Validation
 
-## Contributing
+```bash
+yarn test:typecheck
+yarn test:code
+yarn test:app --watch=false
+yarn build
+```
 
-- Missing something or found a bug? [Report here](https://github.com/excalidraw/excalidraw/issues).
-- Want to contribute? Check out our [contribution guide](https://docs.excalidraw.com/docs/introduction/contributing) or let us know on [Discord](https://discord.gg/UexuTaE).
-- Want to help with translations? See the [translation guide](https://docs.excalidraw.com/docs/introduction/contributing#translating).
+Run the relevant checks after changes. Do not assume that a successful dependency installation means the app builds or that platform packaging works.
 
-## Integrations
+## Repository layout
 
-- [VScode extension](https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor)
-- [npm package](https://www.npmjs.com/package/@excalidraw/excalidraw)
+- `excalidraw-app/`: current web application entry point and app-specific features.
+- `packages/`: reusable drawing engine and supporting packages.
+- `examples/`: integration examples.
+- `dev-docs/`: inherited developer documentation site.
+- `scripts/`: build, release and maintenance tooling.
 
-## Who's integrating Excalidraw
+Some internal folder and package names still reflect the upstream project. They will be renamed only when all imports, build scripts, package references and published interfaces can be updated safely.
 
-[Google Cloud](https://googlecloudcheatsheet.withgoogle.com/architecture) • [Meta](https://meta.com/) • [CodeSandbox](https://codesandbox.io/) • [Obsidian Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) • [Replit](https://replit.com/) • [Slite](https://slite.com/) • [Notion](https://notion.so/) • [HackerRank](https://www.hackerrank.com/) • and many others
+## WI Arch product principles
 
-## Sponsors & support
+1. Keep the editor fast, accessible and usable without an account.
+2. Do not require cloud connectivity for local drawing and export.
+3. Treat drawings and embedded assets as user data.
+4. Keep synchronization and collaboration opt-in until the WI services are ready.
+5. Never claim end-to-end encryption, zero-knowledge storage or secure sharing without a documented design, implementation review and tests.
+6. Keep platform-specific capabilities behind well-defined adapters rather than coupling the drawing engine to one operating system.
 
-If you like the project, you can become a sponsor at [Open Collective](https://opencollective.com/excalidraw) or use [Excalidraw+](https://plus.excalidraw.com/).
+## Licensing and upstream attribution
 
-## Thank you for supporting Excalidraw
+WI Draw is distributed under the MIT License. This repository is a fork of [Excalidraw](https://github.com/excalidraw/excalidraw); the original MIT copyright and license notice must remain in the repository and in substantial copies or distributions of the inherited code.
 
-[<img src="https://opencollective.com/excalidraw/tiers/sponsors/0/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/0/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/1/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/1/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/2/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/2/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/3/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/3/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/4/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/4/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/5/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/5/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/6/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/6/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/7/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/7/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/8/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/8/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/9/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/9/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/10/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/10/website)
+WI Arch branding and WI Draw product documentation are independent additions. They do not imply ownership of the upstream contributions. Review third-party package licenses before redistributing builds.
 
-<a href="https://opencollective.com/excalidraw#category-CONTRIBUTE" target="_blank"><img src="https://opencollective.com/excalidraw/tiers/backers.svg?avatarHeight=32"/></a>
+## Project documentation
 
-Last but not least, we're thankful to these companies for offering their services for free:
+- [Product definition](docs/PRODUCT.md)
+- [Architecture](docs/ARCHITECTURE.md)
+- [Roadmap](docs/ROADMAP.md)
+- [Security policy](SECURITY.md)
+- [Instructions for AI coding agents](CLAUDE.md)
+- [Implementation prompt](PROMPT.md)
 
-[![Vercel](./.github/assets/vercel.svg)](https://vercel.com) [![Sentry](./.github/assets/sentry.svg)](https://sentry.io) [![Crowdin](./.github/assets/crowdin.svg)](https://crowdin.com)
+## Upstream
+
+- Original project: https://github.com/excalidraw/excalidraw
+- Original license: MIT
+- Upstream documentation and history remain useful for understanding inherited components and changes.
+
+---
+Part of the **WI Arch** ecosystem.
