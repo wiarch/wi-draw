@@ -19,7 +19,6 @@ export const WS_EVENTS = {
   USER_FOLLOW_CHANGE: "user-follow",
   USER_FOLLOW_ROOM_CHANGE: "user-follow-room-change",
 } as const;
-
 export enum WS_SUBTYPES {
   INVALID_RESPONSE = "INVALID_RESPONSE",
   INIT = "SCENE_INIT",
@@ -51,11 +50,3 @@ export const STORAGE_KEYS = {
   // do not use apart from migrations
   __LEGACY_LOCAL_STORAGE_LIBRARY: "excalidraw-library",
 } as const;
-
-export const COOKIES = {
-  AUTH_STATE_COOKIE: "excplus-auth",
-} as const;
-
-export const isExcalidrawPlusSignedUser = document.cookie.includes(
-  COOKIES.AUTH_STATE_COOKIE,
-);

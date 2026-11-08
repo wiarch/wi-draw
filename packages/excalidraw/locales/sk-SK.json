@@ -72,7 +72,7 @@
     "arrowtype_elbowed": "Zalomená šípka",
     "fontSize": "Veľkosť písma",
     "fontFamily": "Písmo",
-    "addWatermark": "Pridať \"Vytvorené s Excalidraw\"",
+    "addWatermark": "Pridať \"Vytvorené s WI Draw\"",
     "handDrawn": "Ručne písané",
     "normal": "Normálne",
     "code": "Kód",
@@ -107,7 +107,7 @@
     "untitled": "Bez názvu",
     "name": "Meno",
     "yourName": "Vaše meno",
-    "madeWithExcalidraw": "Vytvorené s Excalidraw",
+    "madeWithExcalidraw": "Vytvorené s WI Draw",
     "group": "Zoskupiť",
     "ungroup": "Zrušiť zoskupenie",
     "collaborators": "Spolupracovníci",
@@ -138,7 +138,7 @@
     "toggleTheme": "Prepnúť svetlú/tmavú tému",
     "theme": "Téma",
     "personalLib": "Moja knižnica",
-    "excalidrawLib": "Excalidraw knižnica",
+    "excalidrawLib": "WI Draw knižnica",
     "decreaseFontSize": "Zmenšiť veľkosť písma",
     "increaseFontSize": "Zväčšiť veľkosť písma",
     "unbindText": "Zrušiť previazanie textu",
@@ -180,7 +180,7 @@
     "zoomToFitViewport": "Priblížiť na veľkosť zobrazenia",
     "zoomToFitSelection": "Priblížiť na výber",
     "zoomToFit": "Priblížiť aby boli zahrnuté všetky prvky",
-    "installPWA": "Inštalovať Excalidraw lokálne (PWA)",
+    "installPWA": "Inštalovať WI Draw lokálne (PWA)",
     "autoResize": "Zapnúť automatickú zmenu veľkosti textu",
     "imageCropping": "Orezanie obrázka",
     "unCroppedDimension": "Pôvodné rozmery",
@@ -280,7 +280,7 @@
     "confirmAddLibrary": "Týmto sa pridá {{numShapes}} tvar(ov) do vašej knižnice. Ste si istí?",
     "imageDoesNotContainScene": "Tento obrázok neobsahuje žiadne údaje scény. Zvolili ste možnosť zahrnúť scénu počas exportu?",
     "cannotRestoreFromImage": "Nepodarilo sa obnoviť scénu z tohto obrázkového súboru",
-    "invalidSceneUrl": "Nepodarilo sa načítať scénu z poskytnutej URL. Je nevalidná alebo neobsahuje žiadne validné Excalidraw JSON dáta.",
+    "invalidSceneUrl": "Nepodarilo sa načítať scénu z poskytnutej URL. Je nevalidná alebo neobsahuje žiadne validné WI Draw JSON dáta.",
     "resetLibrary": "Týmto vyprázdnite vašu knižnicu. Ste si istý?",
     "removeItemsFromsLibrary": "Odstrániť {{count}} položiek z knižnice?",
     "invalidEncryptionKey": "Šifrovací kľúč musí mať 22 znakov. Živá spolupráca je vypnutá.",
@@ -338,7 +338,7 @@
     "bucketfill": "",
     "hand": "Ruka (nástroj pre pohyb plátna)",
     "extraTools": "Ďalšie nástroje",
-    "mermaidToExcalidraw": "Mermaid do Excalidraw",
+    "mermaidToExcalidraw": "Mermaid do WI Draw",
     "convertElementType": "Prepnúť typ tvaru"
   },
   "bucketfill": {
@@ -422,7 +422,7 @@
     "desc_inProgressIntro": "Práve prebieha živá schôdza.",
     "desc_shareLink": "Zdieľajte tento odkaz s osobou, s ktorou chcete spolupracovať:",
     "desc_exitSession": "Ukončenie schôdze vás odpojí z miestnosti, avšak naďalej budete môcť pokračovať v práci na scéne lokálne. Toto neovplyvní ostatných spolupracovníkov a stále budú môcť spolupracovať na ich verzii.",
-    "shareTitle": "Pripojiť sa k živej schôdzi na Excalidraw"
+    "shareTitle": "Pripojiť sa k živej schôdzi na WI Draw"
   },
   "errorDialog": {
     "title": "Chyba"
@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Vaše kresby používajú end-to-end šifrovanie, takže ich Excalidraw server nedokáže prečítať.",
-    "link": "Blog o end-to-end šifrovaní v Excalidraw"
+    "tooltip": "Vaše kresby používajú end-to-end šifrovanie, takže ich WI Draw server nedokáže prečítať.",
+    "link": "Blog o end-to-end šifrovaní v WI Draw"
   },
   "stats": {
     "angle": "Uhol",
@@ -650,9 +650,9 @@
     }
   },
   "mermaid": {
-    "title": "Mermaid do Excalidraw",
+    "title": "Mermaid do WI Draw",
     "button": "Vložiť",
-    "description": "Aktuálne sú podporované iba <flowchartLink>vývojové diagramy</flowchartLink>, <sequenceLink>sekvenčné diagramy</sequenceLink>, <classLink>diagramy tried</classLink> a <erdLink>vzťahové diagramy</erdLink>. Ostatné typy budú v Excalidraw vykreslené ako obrázky.",
+    "description": "Aktuálne sú podporované iba <flowchartLink>vývojové diagramy</flowchartLink>, <sequenceLink>sekvenčné diagramy</sequenceLink>, <classLink>diagramy tried</classLink> a <erdLink>vzťahové diagramy</erdLink>. Ostatné typy budú v WI Draw vykreslené ako obrázky.",
     "syntax": "Mermaid syntax",
     "preview": "Ukážka",
     "label": "Mermaid",

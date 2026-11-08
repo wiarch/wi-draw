@@ -72,7 +72,7 @@
     "arrowtype_elbowed": "Vinklad",
     "fontSize": "Teckenstorlek",
     "fontFamily": "Teckensnitt",
-    "addWatermark": "Lägg till \"Skapad med Excalidraw\"",
+    "addWatermark": "Lägg till \"Skapad med WI Draw\"",
     "handDrawn": "Handritad",
     "normal": "Normal",
     "code": "Kod",
@@ -107,7 +107,7 @@
     "untitled": "Namnlös",
     "name": "Namn",
     "yourName": "Ditt namn",
-    "madeWithExcalidraw": "Skapad med Excalidraw",
+    "madeWithExcalidraw": "Skapad med WI Draw",
     "group": "Gruppera markering",
     "ungroup": "Avgruppera markering",
     "collaborators": "Medarbetare",
@@ -138,7 +138,7 @@
     "toggleTheme": "Växla ljus/mörkt tema",
     "theme": "Tema",
     "personalLib": "Personligt bibliotek",
-    "excalidrawLib": "Excalidraw bibliotek",
+    "excalidrawLib": "WI Draw bibliotek",
     "decreaseFontSize": "Minska fontstorleken",
     "increaseFontSize": "Öka fontstorleken",
     "unbindText": "Koppla bort text",
@@ -180,7 +180,7 @@
     "zoomToFitViewport": "Zooma för att passa in i vyn",
     "zoomToFitSelection": "Zooma för att passa urval",
     "zoomToFit": "Zooma för att rymma alla element",
-    "installPWA": "Installera Excalidraw lokalt (PWA)",
+    "installPWA": "Installera WI Draw lokalt (PWA)",
     "autoResize": "Aktivera automatisk skalning av text",
     "imageCropping": "Bildbeskärning",
     "unCroppedDimension": "Obeskuren dimension",
@@ -280,7 +280,7 @@
     "confirmAddLibrary": "Detta kommer att lägga till {{numShapes}} form(er) till ditt bibliotek. Är du säker?",
     "imageDoesNotContainScene": "Den här bilden verkar inte innehålla någon skissdata. Har du aktiverat inbäddning av skiss under export?",
     "cannotRestoreFromImage": "Skiss kunde inte återställas från denna bildfil",
-    "invalidSceneUrl": "Det gick inte att importera skiss från den angivna webbadressen. Antingen har den fel format, eller så innehåller den ingen giltig Excalidraw JSON data.",
+    "invalidSceneUrl": "Det gick inte att importera skiss från den angivna webbadressen. Antingen har den fel format, eller så innehåller den ingen giltig WI Draw JSON data.",
     "resetLibrary": "Detta kommer att rensa ditt bibliotek. Är du säker?",
     "removeItemsFromsLibrary": "Ta bort {{count}} objekt från biblioteket?",
     "invalidEncryptionKey": "Krypteringsnyckeln måste vara 22 tecken. Livesamarbetet är inaktiverat.",
@@ -338,7 +338,7 @@
     "bucketfill": "Färglägg",
     "hand": "Hand (panoreringsverktyg)",
     "extraTools": "Fler verktyg",
-    "mermaidToExcalidraw": "Mermaid till Excalidraw",
+    "mermaidToExcalidraw": "Mermaid till WI Draw",
     "convertElementType": "Växla formtyp"
   },
   "bucketfill": {
@@ -422,7 +422,7 @@
     "desc_inProgressIntro": "Nu pågår en live-samarbetssession.",
     "desc_shareLink": "Dela denna länk med någon du vill samarbeta med:",
     "desc_exitSession": "Att avbryta sessionen kommer att koppla bort dig från rummet, men du kommer att kunna fortsätta arbeta med skissen, lokalt. Observera att detta inte påverkar andra människor, och de kommer fortfarande att kunna samarbeta på deras version.",
-    "shareTitle": "Delta i en live-samarbetssession på Excalidraw"
+    "shareTitle": "Delta i en live-samarbetssession på WI Draw"
   },
   "errorDialog": {
     "title": "Fel"
@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Dina skisser är krypterade från ände till ände så Excalidraws servrar kommer aldrig att se dem.",
-    "link": "Blogginlägg om kryptering från ände till ände i Excalidraw"
+    "tooltip": "Dina skisser är krypterade från ände till ände så WI Draws servrar kommer aldrig att se dem.",
+    "link": "Blogginlägg om kryptering från ände till ände i WI Draw"
   },
   "stats": {
     "angle": "Vinkel",
@@ -650,9 +650,9 @@
     }
   },
   "mermaid": {
-    "title": "Mermaid till Excalidraw",
+    "title": "Mermaid till WI Draw",
     "button": "Infoga",
-    "description": "För närvarande stöds endast <flowchartLink>Flödesdiagram</flowchartLink>, <sequenceLink> Sekvensdiagram</sequenceLink>, <classLink>Klassdiagram</classLink> och <erdLink>Entitetsrelationsdiagram</erdLink>. De andra typerna kommer att återges som bild i Excalidraw.",
+    "description": "För närvarande stöds endast <flowchartLink>Flödesdiagram</flowchartLink>, <sequenceLink> Sekvensdiagram</sequenceLink>, <classLink>Klassdiagram</classLink> och <erdLink>Entitetsrelationsdiagram</erdLink>. De andra typerna kommer att återges som bild i WI Draw.",
     "syntax": "Mermaid-syntax",
     "preview": "Förhandsgranska",
     "label": "Mermaid",

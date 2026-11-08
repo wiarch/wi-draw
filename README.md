@@ -2,7 +2,7 @@
 
 **WI Draw** is the visual workspace of the WI Arch ecosystem: an open-source, hand-drawn whiteboard for diagrams, wireframes, flowcharts, mind maps, technical sketches and collaborative thinking.
 
-The project starts from the MIT-licensed Excalidraw codebase and is being adapted into an independent WI Arch product. The inherited drawing engine is retained as a foundation; product identity, integrations, deployment, platform packaging and future capabilities will be developed under WI Arch.
+WI Draw is an independent WI Arch product for drawing diagrams, sketches and plans. It uses an inherited open-source drawing engine; integrations, deployment and future capabilities are developed under WI Arch.
 
 > Project status: foundation and rebranding in progress. This repository contains the inherited editor code. Native desktop/mobile applications, WI account integration, cloud workspaces and WI-specific collaboration services are not yet represented as completed features.
 
@@ -83,11 +83,9 @@ Some internal folder and package names still reflect the upstream project. They 
 5. Never claim end-to-end encryption, zero-knowledge storage or secure sharing without a documented design, implementation review and tests.
 6. Keep platform-specific capabilities behind well-defined adapters rather than coupling the drawing engine to one operating system.
 
-## Licensing and upstream attribution
+## Third-party notices
 
-WI Draw is distributed under the MIT License. This repository is a fork of [Excalidraw](https://github.com/excalidraw/excalidraw); the original MIT copyright and license notice must remain in the repository and in substantial copies or distributions of the inherited code.
-
-WI Arch branding and WI Draw product documentation are independent additions. They do not imply ownership of the upstream contributions. Review third-party package licenses before redistributing builds.
+See [third-party notices](THIRD-PARTY-NOTICES.md) for inherited code and license information.
 
 ## Project documentation
 
@@ -97,12 +95,6 @@ WI Arch branding and WI Draw product documentation are independent additions. Th
 - [Security policy](SECURITY.md)
 - [Instructions for AI coding agents](CLAUDE.md)
 - [Implementation prompt](PROMPT.md)
-
-## Upstream
-
-- Original project: https://github.com/excalidraw/excalidraw
-- Original license: MIT
-- Upstream documentation and history remain useful for understanding inherited components and changes.
 
 ---
 Part of the **WI Arch** ecosystem.
