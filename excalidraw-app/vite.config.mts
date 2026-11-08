@@ -143,6 +143,7 @@ export default defineConfig(({ mode }) => {
   const mermaidChunkFileNames = new Set<string>();
   // https://vitejs.dev/config/
   return {
+    base: envVars.VITE_APP_BASE_URL || "/",
     server: {
       port: Number(envVars.VITE_APP_PORT || 3000),
       // open the browser
@@ -412,7 +413,8 @@ export default defineConfig(({ mode }) => {
               type: "image/png",
             },
           ],
-          start_url: "/",
+          start_url: envVars.VITE_APP_BASE_URL || "/",
+          scope: envVars.VITE_APP_BASE_URL || "/",
           id: "wi-draw",
           display: "standalone",
           theme_color: "#121212",

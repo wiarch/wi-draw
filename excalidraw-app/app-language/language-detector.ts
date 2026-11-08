@@ -5,21 +5,31 @@ export const languageDetector = new LanguageDetector();
 
 languageDetector.init({
   languageUtils: {},
+  order: ["localStorage", "navigator"],
+  lookupLocalStorage: "i18nextLng",
+  caches: ["localStorage"],
 });
 
 export const getPreferredLanguage = () => {
   const detectedLanguages = languageDetector.detect();
+  const candidates = Array.isArray(detectedLanguages)
+    ? [...detectedLanguages]
+    : [detectedLanguages];
 
-  const detectedLanguage = Array.isArray(detectedLanguages)
-    ? detectedLanguages[0]
-    : detectedLanguages;
+  if (typeof navigator !== "undefined") {
+    candidates.push(...(navigator.languages || []), navigator.language);
+  }
 
-  const initialLanguage =
-    (detectedLanguage
-      ? // region code may not be defined if user uses generic preferred language
-        // (e.g. chinese vs instead of chinese-simplified)
-        languages.find((lang) => lang.code.startsWith(detectedLanguage))?.code
-      : null) || defaultLang.code;
+  for (const candidate of candidates) {
+    const language = String(candidate || "").toLowerCase().split(/[-_]/)[0];
+    if (language === "es") {
+      return languages.find((lang) => lang.code === "es-ES")?.code ||
+        defaultLang.code;
+    }
+    if (language === "en") {
+      return defaultLang.code;
+    }
+  }
 
-  return initialLanguage;
+  return defaultLang.code;
 };

@@ -93,6 +93,7 @@ See [third-party notices](THIRD-PARTY-NOTICES.md) for inherited code and license
 - [Architecture](docs/ARCHITECTURE.md)
 - [Roadmap](docs/ROADMAP.md)
 - [Security policy](SECURITY.md)
+- [VPS deployment guide](docs/DEPLOY.md)
 - [Instructions for AI coding agents](CLAUDE.md)
 - [Implementation prompt](PROMPT.md)
 

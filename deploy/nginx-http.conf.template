@@ -1,0 +1,63 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ${DOMAIN};
+    root ${DEPLOY_ROOT}/current;
+    index index.html;
+    server_tokens off;
+
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+    add_header Content-Security-Policy "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self' https:; script-src 'self' 'unsafe-inline' blob:; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data: blob:; connect-src 'self' https: wss: data: blob:; worker-src 'self' blob:; frame-src 'self' https: blob:;" always;
+
+    location ^~ /.well-known/acme-challenge/ {
+        root ${CERTBOT_WEBROOT};
+        default_type text/plain;
+        try_files $uri =404;
+    }
+
+    location = /app {
+        return 308 /app/;
+    }
+
+    location = /index.html {
+        expires -1;
+    }
+
+    location = /app/index.html {
+        expires -1;
+    }
+
+    location = /app/sw.js {
+        expires -1;
+    }
+
+    location = /sw.js {
+        expires -1;
+    }
+
+    location = /language.js {
+        expires -1;
+    }
+
+    location = /offline.js {
+        expires -1;
+    }
+
+    location ~* \.(?:css|js|mjs|svg|png|jpe?g|gif|ico|webmanifest|woff2?|ttf)$ {
+        expires 7d;
+        try_files $uri =404;
+    }
+
+    location ~ /\.(?!well-known) {
+        deny all;
+    }
+
+    location /app/ {
+        try_files $uri $uri/ /app/index.html;
+    }
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
