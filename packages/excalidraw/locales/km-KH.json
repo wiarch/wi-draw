@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "គំនូររបស់អ្នកត្រូវបានអ៊ិនគ្រីបពីចុងដល់ចប់ ដូច្នេះម៉ាស៊ីនមេរបស់ WI Draw នឹងមិនឃើញពួកវាទេ។",
-    "link": "ប្លក់ផុសលើការអ៊ិនគ្រីបពីចុងដល់ចុងក្នុង WI Draw"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "មុំ",

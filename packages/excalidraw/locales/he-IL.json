@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "הציורים שלך מוצפנים מקצה לקצה כך שהשרתים של WI Draw לא יראו אותם לעולם.",
-    "link": "פוסט בבלוג על הצפנה מקצה לקצב ב-WI Draw"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "זווית",

@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Сіздің сызбаларыңыз өтпелі шифрлеу арқылы шифрланған, сондықтан WI Draw серверлері оларды ешқашан көрмейді.",
-    "link": "WI Draw қолданатын өтпелі шифрлеу туралы блог жазбасы"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "Бұрыш",

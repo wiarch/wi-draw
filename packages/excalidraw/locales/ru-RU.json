@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Ваши данные защищены сквозным (End-to-end) шифрованием. Серверы WI Draw никогда не получат доступ к ним.",
-    "link": "Запись блога о сквозном шифровании в WI Draw"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "Угол",

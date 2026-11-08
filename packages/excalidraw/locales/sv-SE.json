@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Dina skisser är krypterade från ände till ände så WI Draws servrar kommer aldrig att se dem.",
-    "link": "Blogginlägg om kryptering från ände till ände i WI Draw"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "Vinkel",

@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "描画内容はエンドツーエンド暗号化が施されており、WI Drawサーバーが内容を見ることはできません。",
-    "link": "WI Drawのエンドツーエンド暗号化に関するブログ記事"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "角度",

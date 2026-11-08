@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Da deine Zeichnungen Ende-zu-Ende verschlüsselt werden, sehen auch unsere WI Draw-Server sie niemals.",
-    "link": "Blogbeitrag über Ende-zu-Ende-Verschlüsselung in WI Draw"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "Winkel",

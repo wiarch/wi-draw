@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Desenele tale sunt criptate integral, astfel că serverele WI Draw nu le vor vedea niciodată.",
-    "link": "Articol de blog pe criptarea integrală din WI Draw"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "Unghi",

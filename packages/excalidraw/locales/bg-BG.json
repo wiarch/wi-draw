@@ -539,7 +539,7 @@
     }
   },
   "encrypted": {
-    "tooltip": "Вашите рисунки са криптирани от край до край, така че сървърите на WI Draw няма да могат да ги виждат.",
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
     "link": ""
   },
   "stats": {

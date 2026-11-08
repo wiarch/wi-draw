@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "你的作品已使用 end-to-end 方式加密，WI Draw 的伺服器也無法取得其內容。",
-    "link": "WI Draw 端到端加密的相關部落格文章"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "角度",

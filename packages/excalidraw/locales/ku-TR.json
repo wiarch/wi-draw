@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "وێنەکێشانەکانت لە کۆتاییەوە بۆ کۆتایی کۆد کراون بۆیە سێرڤەرەکانی ئێکسکالیدرا هەرگیز نایانبینن.",
-    "link": "بلۆگ پۆست لەسەر کۆدکردنی کۆتای بۆ کۆتای لە ئێکسکالیدرەو"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "گۆشە",

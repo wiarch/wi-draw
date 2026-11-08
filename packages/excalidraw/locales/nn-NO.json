@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Teikningane dine er ende-til-ende-krypterte slik at WI Draw sine serverar aldri får sjå dei.",
-    "link": "Blogginnlegg om ende-til-ende-kryptering i WI Draw"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "Vinkel",

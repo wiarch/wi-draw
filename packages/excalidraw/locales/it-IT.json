@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "I tuoi disegni sono crittografati end-to-end in modo che i server di WI Draw non li possano mai vedere.",
-    "link": "Articolo del blog sulla crittografia end-to-end di WI Draw"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "Angolo",

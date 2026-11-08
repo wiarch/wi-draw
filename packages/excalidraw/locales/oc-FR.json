@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Vòstres dessenhs son chifrats del cap a la fin en consequéncia los servidors d’WI Draw los veiràn pas jamai.",
-    "link": "Article de blòg sul chiframent del cap a la fin dins WI Draw"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "Angle",

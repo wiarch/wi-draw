@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Je tekeningen zijn beveiligd met end-to-end encryptie, dus WI Draw's servers zullen nooit zien wat je tekent.",
-    "link": "Blog post over end-to-end versleuteling in WI Draw"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "Hoek",

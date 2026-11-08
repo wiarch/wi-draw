@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Seus desenhos são criptografados de ponta a ponta, então os servidores do WI Draw nunca os verão.",
-    "link": "Publicação de blog com criptografia de ponta a ponta no WI Draw"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "Ângulo",

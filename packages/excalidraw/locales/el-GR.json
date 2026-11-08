@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Τα σχέδιά σου είναι κρυπτογραφημένα από άκρο σε άκρο, έτσι δεν θα είναι ποτέ ορατά μέσα από τους διακομιστές του WI Draw.",
-    "link": "Blog post στην κρυπτογράφηση end-to-end στο WI Draw"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "Γωνία",

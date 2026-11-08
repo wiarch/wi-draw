@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Els vostres dibuixos estan xifrats de punta a punta de manera que els servidors d’WI Draw no els veuran mai.",
-    "link": "Article del blog sobre encriptació d'extrem a extrem a WI Draw"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "Angle",

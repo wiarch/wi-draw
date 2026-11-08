@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Jūsu zīmējumi ir šifrēti no gala līdz galam; līdz ar to WI Draw serveri tos nekad neredzēs.",
-    "link": "Ieraksts par šifrēšanu no gala līdz galam WI Draw blogā"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "Leņķis",

@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Bản vẽ của bạn được bảo mật bằng mã hóa đầu cuối, vì vậy máy chủ WI Draw sẽ không thể xem chúng.",
-    "link": "Bài blog về mã hóa đầu cuối trong WI Draw"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "Góc",

@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "आपके चित्र अंत-से-अंत एन्क्रिप्टेड हैं, इसलिए एक्सक्लूसिव्रॉव के सर्वर उन्हें कभी नहीं देखेंगे।",
-    "link": "एक्सकाली मैं ब्लॉग पोस्ट आद्यंत गोपित"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "कोण",

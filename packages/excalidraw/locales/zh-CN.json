@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "您的绘图采用端到端加密，其内容对于 WI Draw 服务器是不可见的。",
-    "link": "WI Draw 中关于端到端加密的博客"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "角度",

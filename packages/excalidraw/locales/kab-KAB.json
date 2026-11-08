@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Unuɣen-inek (m) ttuwgelhnen seg yixef s ixef dɣa iqeddacen n WI Draw werǧin ad ten-walin. ",
-    "link": "Amagrad ɣef uwgelhen ixef s ixef di WI Draw"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "Tiɣmeṛt",

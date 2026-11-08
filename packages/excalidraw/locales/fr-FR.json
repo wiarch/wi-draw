@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Vos dessins sont chiffrés de bout en bout, les serveurs d'WI Draw ne les verront jamais.",
-    "link": "Article de blog sur le chiffrement de bout en bout dans WI Draw"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "Angle",

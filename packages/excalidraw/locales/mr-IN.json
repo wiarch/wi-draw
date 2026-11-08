@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "तुमचे चित्रे या टोकापासून त्या टोकापर्यंत कूटबद्धतित आहेत, त्या कारणांनी ऐक्सकैलिड्रॉ सर्वर्स ह्यानां ते पहाणं कधीच जमणार नाही.",
-    "link": "ब्लॉग पोस्ट ऐक्सकैलिड्रॉ मधे या टोकापासून त्या टोकापर्यंत कूटबद्धतित आहेत"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "कोण",

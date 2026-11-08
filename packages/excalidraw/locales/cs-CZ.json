@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Vaše kresby jsou end-to-end šifrované, takže servery WI Draw je nikdy neuvidí.",
-    "link": "Blog příspěvek na end-to-end šifrování v WI Draw"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "Úhel",

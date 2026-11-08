@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "A rajzaidat végpontok közötti titkosítással tároljuk, tehát az WI Draw szervereiről se tud más belenézni.",
-    "link": "Blogbejegyzés a végpontok közötti titkosításról az WI Draw-ban"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "Szög",

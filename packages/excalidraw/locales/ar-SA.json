@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "رسوماتك مشفرة من النهاية إلى النهاية، لذا لا يمكن لخوادم WI Draw رؤيتها أبدًا.",
-    "link": "مشاركة المدونة حول التشفير من النهاية إلى النهاية في WI Draw"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "الزاوية",

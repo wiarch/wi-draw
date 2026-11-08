@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "ਤੁਹਾਡੀ ਡਰਾਇੰਗਾਂ ਸਿਰੇ-ਤੋਂ-ਸਿਰੇ ਤੱਕ ਇਨਕਰਿਪਟ ਕੀਤੀਆਂ ਹੋਈਆਂ ਹਨ, ਇਸ ਲਈ WI Draw ਦੇ ਸਰਵਰ ਉਹਨਾਂ ਨੂੰ ਕਦੇ ਵੀ ਨਹੀਂ ਦੇਖਣਗੇ।",
-    "link": "WI Draw ਵਿੱਚ ਸਿਰੇ-ਤੋਂ-ਸਿਰੇ ਤੱਕ ਇਨਕ੍ਰਿਪਸ਼ਨ 'ਤੇ ਬਲੌਗ ਸੰਪਾਦਨਾ"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "ਕੋਣ",

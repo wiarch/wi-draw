@@ -539,7 +539,7 @@
     }
   },
   "encrypted": {
-    "tooltip": "ရေးဆွဲထားသောပုံများအား နှစ်ဘက်စွန်းတိုင်လျှို့ဝှက်ထားသဖြင့် WI Draw ၏ဆာဗာများပင်လျှင်မြင်တွေ့ရမည်မဟုတ်ပါ။",
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
     "link": ""
   },
   "stats": {

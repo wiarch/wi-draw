@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "ගුප්තකේතන ඉඟිය",
-    "link": "ගුප්තකේතන සබැඳිය"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "කෝණය",

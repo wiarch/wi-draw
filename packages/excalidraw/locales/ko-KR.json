@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "그림은 종단 간 암호화되므로 WI Draw의 서버는 절대로 내용을 알 수 없습니다.",
-    "link": "WI Draw의 종단 간 암호화에 대한 블로그 포스트"
+    "tooltip": "Encryption details are not available in this version of WI Draw.",
+    "link": "Encryption information"
   },
   "stats": {
     "angle": "각도",
