@@ -2,6 +2,9 @@ server {
     listen 80;
     listen [::]:80;
     server_name ${DOMAIN};
+    root ${DEPLOY_ROOT}/current;
+    index index.html;
+    server_tokens off;
 
     location ^~ /.well-known/acme-challenge/ {
         root ${CERTBOT_WEBROOT};
@@ -9,8 +12,55 @@ server {
         try_files $uri =404;
     }
 
+    location = /app {
+        return 308 /app/;
+    }
+
+    location = /index.html {
+        expires -1;
+    }
+
+    location = /app/index.html {
+        expires -1;
+    }
+
+    location = /app/sw.js {
+        expires -1;
+    }
+
+    location = /sw.js {
+        expires -1;
+    }
+
+    location = /language.js {
+        expires -1;
+    }
+
+    location = /offline.js {
+        expires -1;
+    }
+
+    location ~* \\.(?:css|js|mjs|svg|png|jpe?g|gif|ico|webmanifest|woff2?|ttf)$ {
+        expires 7d;
+        try_files $uri =404;
+    }
+
+    location ~ /\\.(?!well-known) {
+        deny all;
+    }
+
+    location /app/ {
+        try_files $uri $uri/ /app/index.html;
+    }
+
     location / {
-        return 301 https://$host$request_uri;
+        if ($http_cf_connecting_ip = "") {
+            return 301 https://$host$request_uri;
+        }
+        if ($http_x_forwarded_proto = "http") {
+            return 301 https://$host$request_uri;
+        }
+        try_files $uri $uri/ =404;
     }
 }
 

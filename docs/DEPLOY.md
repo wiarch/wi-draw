@@ -73,6 +73,8 @@ sudo nginx -t
 sudo systemctl reload nginx
 ```
 
+The HTTPS template keeps port 80 available for Cloudflare-proxied HTTPS requests when Cloudflare connects to the origin over HTTP, preventing a redirect loop. It redirects direct HTTP requests and proxied requests marked with `X-Forwarded-Proto: http`. Prefer Cloudflare Full (strict) TLS when available.
+
 The existing enabled symlink can remain in place. Verify `http://$DOMAIN/` shows the landing and `http://$DOMAIN/app/` shows WI Draw.
 
 The landing and editor language selectors use the same saved preference. On a first visit, they choose Spanish when the browser's preferred system language is Spanish, and English otherwise. Both pages can be switched manually between English and Spanish.
