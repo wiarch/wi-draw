@@ -40,12 +40,12 @@ server {
         expires -1;
     }
 
-    location ~* \\.(?:css|js|mjs|svg|png|jpe?g|gif|ico|webmanifest|woff2?|ttf)$ {
+    location ~* \.(?:css|js|mjs|svg|png|jpe?g|gif|ico|webmanifest|woff2?|ttf)$ {
         expires 7d;
         try_files $uri =404;
     }
 
-    location ~ /\\.(?!well-known) {
+    location ~ /\.(?!well-known) {
         deny all;
     }
 
